@@ -1,0 +1,37 @@
+
+.comployeeData{}
+/*表格*/
+.comployeeData .card-body{
+    position: relative;
+    min-height: 68vh;
+}
+.comployeeData table{
+    text-align: center;
+}
+.comployeeData table th,
+.comployeeData table td{
+    vertical-align: inherit;
+}
+.comployeeData table td button{
+    background-color: #30904e;
+    border-color: #30904e;
+    border-radius: 10%;
+}
+/*按钮组*/
+.comployeeData .pageBtns{
+    position: absolute;
+    right: 5%;
+    bottom: 10px;
+}
+
+/**/
+.comployeeData select,
+.comployeeData select option{
+    text-align-last: center;
+    text-align: center;
+}
+button.btn.btn-primary {
+     background-color: #30904e;
+     border-color: #30904e;
+     border-radius: 10%;
+}
